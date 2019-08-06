@@ -48,6 +48,6 @@
 
 
 
-  [1]: https://www.jianshu.com/p/22b446439a55
+  [1]: https://segmentfault.com/a/1190000000704006
   [2]: https://www.jianshu.com/p/22b446439a55
   [3]: http://mydearxym.github.io/2016/09/22/not-nest-in-sass/
