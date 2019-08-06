@@ -32,17 +32,7 @@
 	│		├── fn.scss //用于引入mixin variable 下的文件
 	│		├── reset.scss //用于样式重置
 	└── widget //UI配置文件夹 如button input 等 根据不同模块定义文件名
-				├── ui.scss //用于引入widget 下的文件
-
-- scss  //scss源码
-    - mixins    //@mixin方法
-    - utilities   // 全局样式
-    - _functions.scss : 公共方法：用于检测断点、表单中用到的SVG icons、颜色处理；
-    - _variables.scss : 变量：颜色、断点、行间距、栅格等等参数；
-    - _mixins.scss : 抽象类：从一些枯燥重复的CSS抽象出来的方法；
-    - _reboot.scss: CSS初始化：不同浏览器自带的默认样式不同，这样使浏览器尽可能统一，例如：Reset.css、Normalize.css
-    - ...使用下划线_开头的scss文件，主要有布局、内容、组件。
-    
+				├── ui.scss //用于引入widget 下的文件    
 - js    //js源码(如果有的话)
 
 ```
