@@ -44,7 +44,6 @@ gulp.task('html',function(cb){
 	// .pipe(browserSync.reload({ stream: true }))//这个暂时没有找到好的实现方法
 	.pipe(gulp.dest('dist/html'))
 	.pipe(connect.reload());
-	cb()
 })
 //实现浏览器同步更新 浏览器输入http://localhost:8080 
 gulp.task('connect',function(){
@@ -58,9 +57,6 @@ gulp.task('sass', tasksass);
 //parallel(...tasks)：多个任务同时执行 series(...tasks)：顺序执行多个任务
 exports.sass = gulp.parallel(tasksass);
 exports.build = gulp.parallel(tasksass);
-function watchfn(){
-	return gulp.watch('src/style/*.scss', gulp.parallel(tasksass));
-}
 
 gulp.task('watchs',function(){
 	gulp.watch('src/html/*.html',gulp.series('html'));
