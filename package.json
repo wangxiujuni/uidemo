@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "main.js",
   "repository": "git@github.com:wangxiujuni/uidemo.git",
-  "author": "Julen <julen@yunio.com>",
+  "author": "Julen <julen@yunio.com> and Cora <cora@yunio.com>",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
